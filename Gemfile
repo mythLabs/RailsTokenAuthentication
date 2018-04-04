@@ -12,7 +12,8 @@ gem 'rails', '~> 5.1.6'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
- gem 'bcrypt', '~> 3.1.7'
+ #gem 'bcrypt', '3.1.11', platforms: [:ruby, :x64_mingw]
+ gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
  gem 'jwt'
  gem 'simple_command'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
