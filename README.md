@@ -4,4 +4,4 @@ Rails token based authentication using bcrypt and helpers using simple simple_co
 
 1. bundle install
 
-2. rails s
+2. rails s 
